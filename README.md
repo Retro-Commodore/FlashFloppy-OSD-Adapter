@@ -24,9 +24,11 @@ You can isolate the bottom to prevent accidently shorts.
 
 # Parts list
 2 x 4,7k Ohm throughhole resistor
+
 1 x 270  Ohm throughhole resistor
 
 2 x 1x4 pin SIL header male - you can ommit these if you want to solder wires directly
+
 2 x 1x2 pin SIL header male - you can ommit these if you want to solder wires directly
 
 
