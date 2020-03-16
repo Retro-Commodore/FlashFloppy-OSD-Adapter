@@ -9,7 +9,7 @@ You can also program the Bluepill using this adapter.
 Download the gerber (zip) file and upload it to your favorite PCB manufacturer. I'm using jlcpcb.com.
 
 Check out this image and use the link below for reference
-(Pics/FlashFloppy-OSD-Adapter.png)
+(Retro-Commodore/FlashFloppy-OSD-Adapter/Pics/FlashFloppy-OSD-Adapter.png)
 
 Go to https://github.com/keirf/FF_OSD 
 
