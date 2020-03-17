@@ -22,6 +22,10 @@ No, you can use the Bluepill without this adapter.
 # More?
 You can isolate the bottom to prevent accidently shorts.
 
+# Placements
+The resistor values are printet on the silkscreen, which isn't visible on the picture above.
+![FF-OSD-Adapter](Pics/FlashFloppy-OSD-Adapter_pcb.png)
+
 # Parts list
 2 x 4,7k Ohm throughhole resistor
 
