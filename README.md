@@ -20,7 +20,7 @@ If you have a 3D Printet drive bay, you can attach the Adapter with Bluepill to 
 No, you can use the Bluepill without this adapter.
 
 # More?
-You can isolate the bottom to prevent accidently shorts.
+You can isolate the bottom, with i.e. cardboard/hotglue, or isolation tape, to prevent accidently shorts.
 
 # Placements
 The resistor values are printet on the silkscreen, which isn't visible on the picture above.
