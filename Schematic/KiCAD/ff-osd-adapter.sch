@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "FlashFloppy OSD Adapter"
+Title "RCEU1520 - FlashFloppy OSD Adapter"
 Date "2020-03-16"
 Rev "v1.0"
 Comp ""
 Comment1 ""
-Comment2 "by Tomse @ http://retro-commodore.eu 2020"
+Comment2 "by Tomse @ http://retro-commodore.eu in 2020"
 Comment3 "Not for commercial use"
 Comment4 "Free Open Hardware"
 $EndDescr
