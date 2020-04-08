@@ -31,7 +31,7 @@ The resistor values are printet on the silkscreen, which isn't visible on the pi
 
 1 x 270  Ohm throughhole resistor
 
-2 x 1x4 pin SIL header male - you can ommit these if you want to solder wires directly
+2 x 1x4 pin SIL header male - you can ommit these if you want to solder wires directly and program before installing
 
 2 x 1x2 pin SIL header male - you can ommit these if you want to solder wires directly
 
