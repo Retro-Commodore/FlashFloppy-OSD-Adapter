@@ -1,2 +1,4 @@
 
 *.kicad_pcb-bak
+*.sch-bak
+Schematic/KiCAD/ff-osd-adapter-cache.lib

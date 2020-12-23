@@ -5,12 +5,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "RCEU1520 - FlashFloppy OSD Adapter"
-Date "2020-03-16"
-Rev "v1.0"
-Comp ""
+Date "2020-12-23"
+Rev "v1.1"
+Comp "http://retro-commodore.eu"
 Comment1 ""
-Comment2 "by Tomse @ http://retro-commodore.eu in 2020"
-Comment3 "Not for commercial use"
+Comment2 ""
+Comment3 "Copyright (C) Tomse 2020"
 Comment4 "Free Open Hardware"
 $EndDescr
 $Comp
@@ -25,10 +25,10 @@ F 3 "www.rogerclark.net" H 5350 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J5
+L Connector:Conn_01x02_Male J4
 U 1 1 5E701252
 P 7850 4050
-F 0 "J5" H 8000 4100 50  0000 R CNN
+F 0 "J4" H 8000 4100 50  0000 R CNN
 F 1 "Amiga_Keyboard" H 8000 3850 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7850 4050 50  0001 C CNN
 F 3 "~" H 7850 4050 50  0001 C CNN
@@ -77,10 +77,10 @@ Wire Wire Line
 Wire Wire Line
 	6900 2350 6900 2450
 $Comp
-L power:+3.3V #PWR03
+L power:+3.3V #PWR05
 U 1 1 5E71295F
 P 6850 2100
-F 0 "#PWR03" H 6850 1950 50  0001 C CNN
+F 0 "#PWR05" H 6850 1950 50  0001 C CNN
 F 1 "+3.3V" H 6865 2273 50  0000 C CNN
 F 2 "" H 6850 2100 50  0001 C CNN
 F 3 "" H 6850 2100 50  0001 C CNN
@@ -176,10 +176,10 @@ Connection ~ 4350 4950
 Wire Wire Line
 	4350 4950 4500 4950
 $Comp
-L power:+3.3V #PWR0101
+L power:+3.3V #PWR03
 U 1 1 5E7392C5
 P 6350 2950
-F 0 "#PWR0101" H 6350 2800 50  0001 C CNN
+F 0 "#PWR03" H 6350 2800 50  0001 C CNN
 F 1 "+3.3V" H 6365 3123 50  0000 C CNN
 F 2 "" H 6350 2950 50  0001 C CNN
 F 3 "" H 6350 2950 50  0001 C CNN
@@ -187,10 +187,10 @@ F 3 "" H 6350 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
+L power:GND #PWR04
 U 1 1 5E73A071
 P 6500 3450
-F 0 "#PWR0102" H 6500 3200 50  0001 C CNN
+F 0 "#PWR04" H 6500 3200 50  0001 C CNN
 F 1 "GND" H 6505 3277 50  0000 C CNN
 F 2 "" H 6500 3450 50  0001 C CNN
 F 3 "" H 6500 3450 50  0001 C CNN
@@ -226,10 +226,10 @@ Wire Wire Line
 Wire Wire Line
 	6650 4750 7600 4750
 $Comp
-L Connector:Conn_01x02_Male J2
+L Connector:Conn_01x02_Male J1
 U 1 1 5E701E2B
 P 7800 4750
-F 0 "J2" H 7950 4800 50  0000 R CNN
+F 0 "J1" H 7950 4800 50  0000 R CNN
 F 1 "Amiga_Video" H 7950 4550 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 4750 50  0001 C CNN
 F 3 "~" H 7800 4750 50  0001 C CNN
@@ -237,10 +237,10 @@ F 3 "~" H 7800 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J1
+L Connector:Conn_01x04_Male J2
 U 1 1 5E757DF4
 P 7800 5350
-F 0 "J1" H 7950 5500 50  0000 R CNN
+F 0 "J2" H 7950 5500 50  0000 R CNN
 F 1 "GOTEK" H 7950 5050 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7800 5350 50  0001 C CNN
 F 3 "~" H 7800 5350 50  0001 C CNN
@@ -281,4 +281,31 @@ Wire Wire Line
 	6550 5250 7600 5250
 Wire Wire Line
 	3750 4850 4050 4850
+$Comp
+L Jumper:SolderJumper_2_Bridged JP1
+U 1 1 5FE3F995
+P 3400 3600
+F 0 "JP1" V 3354 3668 50  0000 L CNN
+F 1 "Amiga_Key_Input_To_FF" V 3150 3550 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3400 3600 50  0001 C CNN
+F 3 "~" H 3400 3600 50  0001 C CNN
+	1    3400 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 3550 3600 3400
+Wire Wire Line
+	3600 3400 3400 3400
+Wire Wire Line
+	3400 3400 3400 3450
+Wire Wire Line
+	3600 3550 4500 3550
+Wire Wire Line
+	3600 3650 3600 3800
+Wire Wire Line
+	3600 3800 3400 3800
+Wire Wire Line
+	3400 3800 3400 3750
+Wire Wire Line
+	3600 3650 4500 3650
 $EndSCHEMATC
