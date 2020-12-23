@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 21)
+    (drawings 22)
     (tracks 43)
     (zones 0)
     (modules 8)
@@ -580,6 +580,9 @@
     )
   )
 
+  (gr_text "USB Port\nside here" (at 103 70.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text "RCEU1520 - FlashFloppy OSD Adapter v1.0\nCopyright (c) 2020 \nTomse @ http://retro-commodore.eu\n\n" (at 103.5 90.5 90) (layer B.Cu)
     (effects (font (size 1.2 1.2) (thickness 0.2)) (justify mirror))
   )
@@ -597,10 +600,10 @@
   (gr_text "SCL\n" (at 86.5 106.5 270) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "3v3\n" (at 86.5 118.5 270) (layer F.SilkS)
+  (gr_text "3v3\n" (at 86.5 113.75 270) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "GND\n" (at 86.5 114 270) (layer F.SilkS)
+  (gr_text "GND\n" (at 86.5 118 270) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text KBC (at 86.5 96.5 270) (layer F.SilkS)
